@@ -1,7 +1,9 @@
 <h1 align="center">Hi 🙋🏾, I'm Aayush Yash 🧑🏾‍💻</h1>
 <h3 align="center">Final Year student 🧑🏾‍🎓 pursuing Computer Science and Engineering 💻 at Chandigarh University 🏫.</h3>
 
-<center>🌱 I’m currently learning **DSA, DBMS and Android Development.**</center>
+<p align = "Center" >
+🌱 I’m currently learning <b>DSA, DBMS and Android Development</b>.
+</p>
 
 <h3 align="left">📧 DM me on:</h3>
 <p align="left">
