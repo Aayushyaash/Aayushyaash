@@ -59,7 +59,7 @@
 </p>
 
 <details>
-<h3 align="left"><summary>My Github Stats</h3></summary>
+<summary><h3 align="left">My Github Stats</h3></summary>
 <p align="left">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushyaash&" alt="aayushyaash" />
 </p>
