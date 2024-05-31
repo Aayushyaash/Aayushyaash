@@ -22,11 +22,18 @@
 
 <details>
 <summary><h3 align="left">My Github Stats</h3></summary>
-<img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=aayushyaash&" alt="aayushyaash" />
-<br>
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=aayushyaash&show_icons=true&locale=en" alt="aayushyaash" />
-<br>
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aayushyaash&show_icons=true&locale=en&layout=compact" alt="aayushyaash" />
+<p align="left">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushyaash&" alt="aayushyaash" />
+</p>
+
+<p align="left">
+<img src="https://github-readme-stats.vercel.app/api?username=aayushyaash&show_icons=true&locale=en" alt="aayushyaash" />
+</p>
+
+<p align="left">
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=aayushyaash&show_icons=true&locale=en&layout=compact" alt="aayushyaash" />
+</p>
+
 </details>
 
 <!--
