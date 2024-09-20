@@ -2,7 +2,7 @@
 <h3 align="center">Final Year student 🧑🏾‍🎓 pursuing Computer Science and Engineering 💻 at Chandigarh University 🏫.</h3>
 
 <p align = "Center" >
-🌱 I’m currently learning <b>DSA, DBMS and Android Development</b>.
+🌱 I’m currently learning <b>DSA, DBMS, and FullStack development</b>.
 </p>
 
 <h3 align="left">📧 DM me on:</h3>
@@ -13,14 +13,17 @@
 </p>
 
 <h3 align="left">Coding Platform ratings and badges:</h3>
+<!-- ratings -->
 <p>
-<a href="https://www.codechef.com/users/cu_21bcs10422" target="_blank">
-    <img src="https://cp-logo.vercel.app/codechef/cu_21bcs10422" alt="cu_21bcs10422"/>
+<a href="https://www.codechef.com/users/aayushyaash" target="blank">
+    <img src="https://cp-logo.vercel.app/codechef/aayushyaash" alt="aayushyaash"/>
   </a>
-<a href="https://www.leetcode.com/users/aayushyaash" target="_blank">
-    <img src="https://cp-logo.vercel.app/leetcode/aayushyaash" alt="aayushyaash"/>
-  </a>
-</p>
+
+[![LeetCode user aayushyaash](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Faayushyaash&logo=leetcode&logoColor=yellow)](https://leetcode.com/aayushyaash/)
+
+[![LeetCode user aayushyaash](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Rating&query=ratingQuantile&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Faayushyaash&logo=leetcode&logoColor=yellow)](https://leetcode.com/aayushyaash/)
+
+<!-- badges -->
 
 <h3 align="left">📚 Languages and Tools:</h3>
 <p align="left">
@@ -43,7 +46,7 @@
   <a href="https://kotlinlang.org" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/>
   </a>
-
+</p>
 <!-- Framework Icons -->
 
 <a href="https://developer.android.com" target="_blank" rel="noreferrer">
@@ -72,6 +75,11 @@
 
 <p align="left">
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aayushyaash&show_icons=true&locale=en&layout=compact" alt="aayushyaash" />
+</p>
+
+<summary><h3 align="left">My Roadmap.sh stats</h3></summary>
+<p align = "left">
+<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/64d20a1a958c39fd1f806fab?variant=dark" alt="roadmap.sh"/></a>
 </p>
 
 </details>
