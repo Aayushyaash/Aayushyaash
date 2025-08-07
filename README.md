@@ -60,27 +60,6 @@
   </a>
 </p>
 
-<details>
-<summary><h3 align="left">My Github Stats</h3></summary>
-<p align="left">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aayushyaash&" alt="aayushyaash" />
-</p>
-
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=aayushyaash&show_icons=true&locale=en" alt="aayushyaash" />
-</p>
-
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=aayushyaash&show_icons=true&locale=en&layout=compact" alt="aayushyaash" />
-</p>
-
-<summary><h3 align="left">My Roadmap.sh stats</h3></summary>
-<p align = "left">
-<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/wide/64d20a1a958c39fd1f806fab?variant=dark" alt="roadmap.sh"/></a>
-</p>
-
-</details>
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aayushyaash&label=Profile%20views&color=0e75b6&style=flat" alt="aayushyaash" /> </p>
 
 <!--
