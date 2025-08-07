@@ -15,10 +15,7 @@
 <h3 align="left">Coding Platform ratings and badges:</h3>
 <!-- ratings -->
 <p>
-<a href="https://www.codechef.com/users/aayushyaash" target="blank">
-    <img src="https://cp-logo.vercel.app/codechef/aayushyaash" alt="aayushyaash"/>
-  </a>
-
+    
 [![LeetCode user aayushyaash](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Faayushyaash&logo=leetcode&logoColor=yellow)](https://leetcode.com/aayushyaash/)
 
 [![LeetCode user aayushyaash](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Rating&query=ratingQuantile&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Faayushyaash&logo=leetcode&logoColor=yellow)](https://leetcode.com/aayushyaash/)
