@@ -5,11 +5,10 @@
 🌱 I’m currently learning <b>DSA, DBMS, and FullStack development</b>.
 </p>
 
-<h3 align="left">📧 DM me on:</h3>
+<h3 align="left">📧 Connect with me on:</h3>
 <p align="left">
-<a href="mailto:aayushyaash@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="aayushyaash@gmail.com"></a>
+<a href="mailto:aayushyaash@outlook.com" target="blank"><img align="center" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="aayushyaash@outlook.com"></a>
 <a href="https://linkedin.com/in/aayushyaash" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="aayushyaash"></a>
-<a href="https://instagram.com/aayushyaash" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="aayushyaash"></a>
 </p>
 
 <h3 align="left">Coding Platform ratings and badges:</h3>
