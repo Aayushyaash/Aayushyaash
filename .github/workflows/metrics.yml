@@ -1,0 +1,77 @@
+name: Metrics
+on:
+  # Schedule daily updates at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+  # Run workflow manually
+  workflow_dispatch:
+  # Run workflow when pushing on main branch
+  push:
+    branches: ["main"]
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # ======================================================================================
+      # Languages - Indepth analysis with lines of code
+      # ======================================================================================
+      - name: 🈷️ Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Aayushyaash
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, percentage
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_languages_ignored: html, css, tex, dockerfile, makefile, shell
+
+      # ======================================================================================
+      # Isocalendar - Full year 3D isometric commit calendar
+      # ======================================================================================
+      - name: 📅 Isocalendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Aayushyaash
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # ======================================================================================
+      # LeetCode - Solved problems and skills
+      # ======================================================================================
+      - name: 🗳️ LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-leetcode.svg
+          token: NOT_NEEDED
+          user: Aayushyaash
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: aayushyaash
+          plugin_leetcode_sections: solved, skills
+          plugin_leetcode_limit_skills: 10
+
+      # ======================================================================================
+      # 📰 Recent Activity - Currently Building
+      # ======================================================================================
+      - name: 📰 Recent Activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Aayushyaash
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: push, pr, issue, ref/create
+          plugin_activity_timestamps: yes
