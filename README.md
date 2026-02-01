@@ -62,7 +62,7 @@ Enterprise-grade mental health platform with real-time AI-powered support.
 - **AI**: Psychological assessments (PHQ-9), sentiment analysis, AI chat
 - **Games**: Interactive cognitive wellness games with leaderboards
 
-![Tech Stack](https://skills.syvixor.com/api/icons?i=django,redis,twilio,googlegemini,websocket)
+![Tech Stack](https://skills.syvixor.com/api/icons?i=django,redis,twilio,googlegemini,elevenlabs,websocket)
 
 <!-- Education Section -->
 ## <img src="assets/emojis/Graduation Cap.png" width="24px" height="24px" alt="Education"/> Education
