@@ -24,12 +24,7 @@ I'm comfortable working with **C/C++, Python, SQL, and Git/GitHub**, and enjoy b
 - System Design, Computer Networks
 - Full-Stack Development
 
-## <img src="assets/emojis/Rocket.png" width="24px" height="24px"/> Currently Building
-
-<p align="center">
-  <img src="metrics-activity.svg" alt="Recent Activity"/>
-</p>
-
+<!-- ## <img src="assets/emojis/Rocket.png" width="24px" height="24px"/> Currently Building -->
 
 <!-- Projects Section -->
 ## <img src="assets/emojis/Floppy Disk.png" width="24px" height="24px" alt="Projects"/> Projects
@@ -135,12 +130,15 @@ Enterprise-grade mental health platform with real-time AI-powered support.
 ## <img src="assets/emojis/Bar Chart.png" width="24px" height="24px" alt="Stats"/> Stats
 
 <p align="center">
-  <img src="metrics-isocalendar.svg" alt="Isometric Commit Calendar"/>
+  <img src="https://raw.githubusercontent.com/Aayushyaash/Aayushyaash/metrics-render/metrics-isocalendar.svg" alt="Isometric Commit Calendar"/>
 </p>
 
 <p align="center">
-  <img src="metrics-leetcode.svg" alt="LeetCode Stats" width="400"/>
-  <img src="metrics-languages.svg" alt="Languages" width="400"/>
+  <img src="https://raw.githubusercontent.com/Aayushyaash/Aayushyaash/metrics-render/metrics-leetcode.svg" alt="LeetCode Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Aayushyaash/Aayushyaash/metrics-render/metrics-languages.svg" alt="Languages"/>
 </p>
 
 <p align="center">

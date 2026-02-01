@@ -1,75 +1,81 @@
 name: Metrics
 on:
-  # Run workflow manually
+  # Schedule updates (every 24 hours at midnight UTC)
+  schedule: [{ cron: "0 0 * * *" }]
+  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  # Run workflow when pushing on main branch
-  push:
-    branches: ["main"]
+  push: { branches: ["master", "main"] }
 
 jobs:
-  metrics:
+  github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      # ======================================================================================
-      # Languages - Indepth analysis with lines of code
-      # ======================================================================================
+      - uses: actions/checkout@v3
+
+      - name: 🛠️ Setup Output Branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          git fetch origin
+          if ! git ls-remote --exit-code --heads origin metrics-render; then
+            echo "Branch metrics-render does not exist. Creating it..."
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git checkout --orphan metrics-render
+            git rm -rf .
+            git commit --allow-empty -m "chore: initialize metrics branch"
+            git push origin metrics-render
+            git checkout main
+          else
+            echo "Branch metrics-render already exists."
+          fi
+
+      - name: 📅 IsoCalendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: commit
+          committer_branch: metrics-render
+          committer_message: "chore: update metrics [skip ci]"
+          user: Aayushyaash
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_display: large
+
+      - name: 🧩 LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          output_action: commit
+          committer_branch: metrics-render
+          committer_message: "chore: update metrics [skip ci]"
+          plugin_leetcode: yes
+          plugin_leetcode_user: Aayushyaash
+          plugin_leetcode_sections: solved, skills
+          config_display: large
+
       - name: 🈷️ Languages
         uses: lowlighter/metrics@latest
         with:
           filename: metrics-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Aayushyaash
           base: ""
+          output_action: commit
+          committer_branch: metrics-render
+          committer_message: "chore: update metrics [skip ci]"
+          user: Aayushyaash
           plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
           plugin_languages_indepth: yes
           plugin_languages_details: lines, percentage
           plugin_languages_limit: 8
           plugin_languages_colors: github
-          plugin_languages_ignored: html, css, tex, dockerfile, makefile, shell
-
-      # ======================================================================================
-      # Isocalendar - Full year 3D isometric commit calendar
-      # ======================================================================================
-      - name: 📅 Isocalendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Aayushyaash
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          config_display: large
-
-      # ======================================================================================
-      # LeetCode - Solved problems and skills
-      # ======================================================================================
-      - name: 🗳️ LeetCode
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-leetcode.svg
-          token: NOT_NEEDED
-          user: Aayushyaash
-          base: ""
-          plugin_leetcode: yes
-          plugin_leetcode_user: aayushyaash
-          plugin_leetcode_sections: solved, skills
-          plugin_leetcode_limit_skills: 10
-
-      # ======================================================================================
-      # 📰 Recent Activity - Currently Building
-      # ======================================================================================
-      - name: 📰 Recent Activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Aayushyaash
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_visibility: public
           config_display: large
