@@ -44,6 +44,7 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          config_display: large
 
       # ======================================================================================
       # LeetCode - Solved problems and skills
@@ -75,3 +76,4 @@ jobs:
           plugin_activity_days: 14
           plugin_activity_filter: push, pr, issue, ref/create
           plugin_activity_timestamps: yes
+          config_display: large
