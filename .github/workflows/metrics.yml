@@ -1,8 +1,5 @@
 name: Metrics
 on:
-  # Schedule daily updates at midnight UTC
-  schedule:
-    - cron: "0 0 * * *"
   # Run workflow manually
   workflow_dispatch:
   # Run workflow when pushing on main branch
