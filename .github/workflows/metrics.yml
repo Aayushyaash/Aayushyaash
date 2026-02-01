@@ -74,6 +74,5 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
-          plugin_activity_filter: push, pr, issue, ref/create
-          plugin_activity_timestamps: yes
+          plugin_activity_visibility: public
           config_display: large
