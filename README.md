@@ -163,8 +163,8 @@ Enterprise-grade mental health platform with real-time AI-powered support.
   <a href="mailto:aayushyaash@outlook.com" target="blank">
     <img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="aayushyaash@outlook.com"/>
   </a>
-  <a href="https://linkedin.com/in/aayushyaash" target="blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="aayushyaash"/>
+  <a href="https://linkedin.com/in/aayush-yash" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="aayush-yash"/>
   </a>
 </p>
 
