@@ -16,16 +16,16 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.79mb of code in 400 edited files across 109 commits</small>
+                <small>estimation from 1.80mb of code in 427 edited files across 115 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="679.7758744966867" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="679.7758744966867" y="0" width="144.49710043618674" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="824.2729749328735" y="0" width="83.34367725230669" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="907.6166521851801" y="0" width="12.383347814819896" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="672.2497781836037" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="672.2497781836037" y="0" width="153.0830325531713" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="825.3328107367751" y="0" width="82.42094291350453" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="907.7537536502796" y="0" width="12.246246349720467" height="8" fill="#3178c6"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -38,7 +38,7 @@
                             </div>
                             <small>
                                 <div>11k lines</div>
-                                <div>73.89%</div>
+                                <div>73.07%</div>
                             </small>
                         </div>
                     </section>
@@ -51,8 +51,8 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>2.15k lines</div>
-                                <div>15.71%</div>
+                                <div>2.27k lines</div>
+                                <div>16.64%</div>
                             </small>
                         </div>
                     </section>
@@ -66,7 +66,7 @@
                             </div>
                             <small>
                                 <div>967 lines</div>
-                                <div>9.06%</div>
+                                <div>8.96%</div>
                             </small>
                         </div>
                     </section>
@@ -80,7 +80,7 @@
                             </div>
                             <small>
                                 <div>178 lines</div>
-                                <div>1.35%</div>
+                                <div>1.33%</div>
                             </small>
                         </div>
                     </section>
