@@ -75,7 +75,7 @@ to CRLF line endings in markdown files created by external editors.
 
 - Affected all Windows users running agents outside the built-in creator
 - Root caused the issue, wrote the fix, and got it merged
-- [View PR #1868](https://github.com/QwenLM/qwen-code/pull/1868)
+- [View PR #1890](https://github.com/QwenLM/qwen-code/pull/1890)
 
 
 <!-- Education Section -->
