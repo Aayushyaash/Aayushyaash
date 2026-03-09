@@ -56,13 +56,27 @@ Local-first RAG system for PDF querying with privacy-focused architecture.
 
 ### <img src="assets/emojis/Brain.png" width="20px" height="20px"/> [MindMate-AI](https://github.com/Aayushyaash/MindMate-AI)
 
-Enterprise-grade mental health platform with real-time AI-powered support.
+**Team Project** — Mental health platform with real-time AI-powered support, 
+built collaboratively as part of a group. Original repository maintained by 
+the team lead.
 
-- **Voice**: Real-time calls via Twilio/WebRTC, ElevenLabs TTS
-- **AI**: Psychological assessments (PHQ-9), sentiment analysis, AI chat
-- **Games**: Interactive cognitive wellness games with leaderboards
+- **My contributions**: Voice (Twilio/WebRTC, ElevenLabs TTS), WebSocket 
+  consumers, PHQ-9 assessments, wellness games, auth & user profiles, 
+  journal & analytics features
 
 ![Tech Stack](https://skills.syvixor.com/api/icons?i=django,redis,twilio,googlegemini,elevenlabs,websocket)
+
+<!-- Open Source Contributions -->
+## <img src="assets/emojis/Rocket.png" width="24px" height="24px"/> Open Source Contributions
+
+### [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code/pull/1868)
+Fixed a critical Windows bug where sub-agents and skills were silently ignored due 
+to CRLF line endings in markdown files created by external editors.
+
+- Affected all Windows users running agents outside the built-in creator
+- Root caused the issue, wrote the fix, and got it merged
+- [View PR #1868](https://github.com/QwenLM/qwen-code/pull/1868)
+
 
 <!-- Education Section -->
 ## <img src="assets/emojis/Graduation Cap.png" width="24px" height="24px" alt="Education"/> Education
@@ -73,7 +87,6 @@ Enterprise-grade mental health platform with real-time AI-powered support.
 <!-- - Certifications (course completions, credentials) -->
 <!-- - Hackathon participations -->
 <!-- - Internship experience -->
-<!-- - Open source contributions -->
 
 <!-- Tech Stack Section -->
 ## <img src="assets/emojis/Hammer and Wrench.png" width="24px" height="24px" alt="Tech Stack"/> Tech Stack
@@ -82,7 +95,7 @@ Enterprise-grade mental health platform with real-time AI-powered support.
 <summary><strong>Languages</strong></summary>
 <br>
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 </details>
 
@@ -114,7 +127,7 @@ Enterprise-grade mental health platform with real-time AI-powered support.
 <summary><strong>Platforms & Tools</strong></summary>
 <br>
 
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </details>
 
@@ -126,6 +139,7 @@ Enterprise-grade mental health platform with real-time AI-powered support.
 
 </details>
 
+
 <!-- Stats Section -->
 ## <img src="assets/emojis/Bar Chart.png" width="24px" height="24px" alt="Stats"/> Stats
 
@@ -133,9 +147,11 @@ Enterprise-grade mental health platform with real-time AI-powered support.
   <img src="https://raw.githubusercontent.com/Aayushyaash/Aayushyaash/metrics-render/metrics-isocalendar.svg" alt="Isometric Commit Calendar"/>
 </p>
 
+<!-- Commented out until LC stats are stronger
 <p align="center">
   <img src="https://raw.githubusercontent.com/Aayushyaash/Aayushyaash/metrics-render/metrics-leetcode.svg" alt="LeetCode Stats"/>
 </p>
+-->
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Aayushyaash/Aayushyaash/metrics-render/metrics-languages.svg" alt="Languages"/>
