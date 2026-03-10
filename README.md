@@ -4,9 +4,12 @@
 </div>
 <h1 align="center">Hi <img src="assets/emojis/Person Raising Hand Medium-Dark Skin Tone.png" width="32px" height="32px" alt="Person Raising Hand"/>, I'm Aayush Yash</h1>
 <h3 align="center">Software Developer | Building AI-Powered Applications <img src="assets/emojis/Rocket.png" width="20px" height="20px" alt="Rocket"/></h3>
+
+<!-- comment out 
 <p align="center">
   <img src="https://img.shields.io/badge/Open_to_Work-Entry_Level_Python%2FAI_Developer-success?style=for-the-badge"/>
 </p>
+-->
 
 ## <img src="assets/emojis/Technologist Medium-Dark Skin Tone.png" width="24px" height="24px"/> Who I Am
 
