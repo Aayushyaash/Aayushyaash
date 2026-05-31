@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: 🛠️ Setup Output Branch
         env:
@@ -44,20 +44,6 @@ jobs:
           user: Aayushyaash
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          config_display: large
-
-      - name: 🧩 LeetCode
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics-leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          output_action: commit
-          committer_branch: metrics-render
-          committer_message: "chore: update metrics [skip ci]"
-          plugin_leetcode: yes
-          plugin_leetcode_user: Aayushyaash
-          plugin_leetcode_sections: solved, skills
           config_display: large
 
       - name: 🈷️ Languages
