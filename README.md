@@ -1,117 +1,168 @@
-<!-- Header Section -->
 <div align="center">
-   <img width="100%" src="assets/header.gif" alt="Animated Header"/>
+  <img width="100%" src="assets/cover.png" alt="Aayush Yash — Cover Banner" />
 </div>
-<h1 align="center">Hi <img src="assets/emojis/Person Raising Hand Medium-Dark Skin Tone.png" width="32px" height="32px" alt="Person Raising Hand"/>, I'm Aayush Yash</h1>
-<h3 align="center">Python Backend & AI Engineer | FastAPI • Computer Vision • RAG <img src="assets/emojis/Rocket.png" width="20px" height="20px" alt="Rocket"/></h3>
+
+<h1 align="center">Hi <img src="assets/emojis/Person Raising Hand Medium-Dark Skin Tone.png" width="30px" height="30px" valign="middle" alt="Wave"/>, I'm Aayush Yash</h1>
+<h3 align="center">Python Backend &amp; AI Engineer | Document Intelligence • RAG • Agent Tooling</h3>
 
 <p align="center">
-  <a href="mailto:aayushyaash@outlook.com">
-    <img src="https://img.shields.io/badge/Email-aayushyaash%40outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
+  <a href="https://aayushyaash.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-Live_Site-161b22?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/aayush-yash" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Aayush_Yash-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Aayush_Yash-0077B5?style=flat-square&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHRpdGxlPkxpbmtlZEluPC90aXRsZT48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4%3D" alt="LinkedIn" />
   </a>
-  <img src="https://img.shields.io/badge/Open_to_Work-Python%20%E2%80%A2%20Backend%20%E2%80%A2%20AI-success?style=for-the-badge"/>
+  <a href="mailto:aayushyaash@outlook.com">
+    <img src="https://img.shields.io/badge/Email-aayushyaash%40outlook.com-0078D4?style=flat-square&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPHRpdGxlPk1pY3Jvc29mdCBPdXRsb29rPC90aXRsZT48cGF0aCBkPSJNNy44OCAxMi4wNHEwIC40NS0uMTEuODctLjEuNDEtLjMzLjc0LS4yMi4zMy0uNTguNTItLjM3LjItLjg3LjJ0LS44NS0uMnEtLjM1LS4yMS0uNTctLjU1LS4yMi0uMzMtLjMzLS43NS0uMS0uNDItLjEtLjg2dC4xLS44N3EuMS0uNDMuMzQtLjc2LjIyLS4zNC41OS0uNTQuMzYtLjIuODctLjJ0Ljg2LjJxLjM1LjIxLjU3LjU1LjIyLjM0LjMxLjc3LjEuNDMuMS44OHpNMjQgMTJ2OS4zOHEwIC40Ni0uMzMuOC0uMzMuMzItLjguMzJINy4xM3EtLjQ2IDAtLjgtLjMzLS4zMi0uMzMtLjMyLS44VjE4SDFxLS40MSAwLS43LS4zLS4zLS4yOS0uMy0uN1Y3cTAtLjQxLjMtLjdRLjU4IDYgMSA2aDYuNVYyLjU1cTAtLjQ0LjMtLjc1LjMtLjMuNzUtLjNoMTIuOXEuNDQgMCAuNzUuMy4zLjMuMy43NVYxMC44NWwxLjI0LjcyaC4wMXEuMS4wNy4xOC4xOC4wNy4xMi4wNy4yNXptLTYtOC4yNXYzaDN2LTN6bTAgNC41djNoM3YtM3ptMCA0LjV2MS44M2wzLjA1LTEuODN6bS01LjI1LTl2M2gzLjc1di0zem0wIDQuNXYzaDMuNzV2LTN6bTAgNC41djIuMDNsMi40MSAxLjUgMS4zNC0uOHYtMi43M3pNOSAzLjc1VjZoMmwuMTMuMDEuMTIuMDR2LTIuM3pNNS45OCAxNS45OHEuOSAwIDEuNi0uMy43LS4zMiAxLjE5LS44Ni40OC0uNTUuNzMtMS4yOC4yNS0uNzQuMjUtMS42MSAwLS44My0uMjUtMS41NS0uMjQtLjcxLS43MS0xLjI0dC0xLjE1LS44M3EtLjY4LS4zLTEuNTUtLjMtLjkyIDAtMS42NC4zLS43MS4zLTEuMi44NS0uNS41NC0uNzUgMS4zLS4yNS43NC0uMjUgMS42MyAwIC44NS4yNiAxLjU2LjI2LjcyLjc0IDEuMjMuNDguNTIgMS4xNy44MS42OS4zIDEuNTYuM3pNNy41IDIxaDEyLjM5TDEyIDE2LjA4VjE3cTAgLjQxLS4zLjctLjI5LjMtLjcuM0g3LjV6bTE1LS4xM3YtNy4yNGwtNS45IDMuNTRaIi8%2BPC9zdmc%2B" alt="Email" />
+  </a>
+  <img src="https://img.shields.io/badge/Open_to_Work-Python%20%E2%80%A2%20Backend%20%E2%80%A2%20AI-2da44e?style=flat-square&labelColor=161b22" alt="Open to Work" />
 </p>
 
-## <img src="assets/emojis/Technologist Medium-Dark Skin Tone.png" width="24px" height="24px"/> About Me
+I build asynchronous backend services, document intelligence pipelines, and local-first RAG architectures. Graduated in Computer Science (Batch of 2025) with a strong foundation in core algorithms and systems. The part of engineering I enjoy most is exploring new ideas, diving deep into how tools work under the hood, and building projects that push me to learn and grow both technically and personally.
 
-Backend & AI engineer focused on building document intelligence pipelines, local-first RAG systems, and asynchronous backend services with **Python, FastAPI, PyTorch, and SQL**, alongside frontend engineering with **TypeScript and React**.
+<table>
+  <tr>
+    <td width="22%"><strong>Focus</strong></td>
+    <td>Document intelligence (two-phase OCR &amp; orientation correction), low-latency hybrid RAG, agent toolchains, and async backend services.</td>
+  </tr>
+  <tr>
+    <td><strong>Currently focusing</strong></td>
+    <td>Deepening systems design, sharpening core algorithms and backend stack depth, and mastering AI pair-programming workflows.</td>
+  </tr>
+  <tr>
+    <td><strong>Education</strong></td>
+    <td><b>B.E. Computer Science and Engineering</b> — Batch of 2025.</td>
+  </tr>
+</table>
 
-> <img src="assets/emojis/Light Bulb.png" width="16px" height="16px"/> *Engineering focus: building resilient OCR/vision extraction pipelines and low-latency retrieval architectures.*
+## <img src="assets/emojis/Rocket.png" width="22px" height="22px" valign="middle" alt="Rocket"/> Open source
 
----
+<!-- CONTRIB:START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/pull_requests-7-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
+  <img src="https://img.shields.io/badge/merged-4-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
+  <img src="https://img.shields.io/badge/in_review-3-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/projects-3-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
+</p>
 
-## <img src="assets/emojis/Rocket.png" width="24px" height="24px"/> Open Source Contributions
+### Merged upstream
 
-### [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — [PR #1890](https://github.com/QwenLM/qwen-code/pull/1890) (Merged)
-Fixed a Windows compatibility bug where CRLF line endings caused externally-created subagents, skills, and Claude-converted agents to fail silently ([Issue #1868](https://github.com/QwenLM/qwen-code/issues/1868)).
-- **Root Cause**: Core parsers relied on newline-sensitive regex patterns expecting only `\n`, failing on Windows `\r\n` content.
-- **Architecture & Refactoring**: Introduced a centralized `normalizeContent()` utility for BOM stripping and CRLF normalization, replacing duplicate parsing logic across subagent, skill, and converter modules.
-- **Verification**: Added regression and integration test suites; verified on Windows 11 with all 13 automated checks passing.
+**<img src="https://github.com/backnotprop.png?size=32" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
+- [#1669](https://github.com/backnotprop/plannotator/pull/1669) fix(ai): show friendly error when opencode CLI is unavailable
+- [#1658](https://github.com/backnotprop/plannotator/pull/1658) fix(ui): style Ask AI dropdown options for dark themes
 
----
+**<img src="https://github.com/QwenLM.png?size=32" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**<br/><sub>An open-source AI coding agent that lives in your terminal.</sub>
+- [#1890](https://github.com/QwenLM/qwen-code/pull/1890) fix(windows): resolve silent failures caused by CRLF line endings (#1868)
 
-## <img src="assets/emojis/Floppy Disk.png" width="24px" height="24px" alt="Projects"/> Featured Projects
+**<img src="https://github.com/rtk-ai.png?size=32" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
+- [#3711](https://github.com/rtk-ai/rtk/pull/3711) feat(hook): add native Google Antigravity plugin lifecycle and hook support
 
-### <img src="assets/emojis/Magnifying Glass Tilted Left.png" width="20px" height="20px"/> [Bharat-ID-Validator](https://github.com/Aayushyaash/Bharat-ID-Validator)
-FastAPI pipeline for Indian identity document classification and OCR field extraction.
-- **Engineering Choice**: Two-phase OCR with YOLO-based orientation correction reduces invalid text extraction noise.
-- **Results**: 98%+ classification accuracy across 7 document formats (50+ field classes); ~80% latency reduction over naive whole-image OCR passes.
-- **Stack**: `FastAPI`, `PyTorch`, `YOLO`, `OpenCV`, `Pydantic`, `pytest`
-
-### <img src="assets/emojis/Books.png" width="20px" height="20px"/> [Rag-chatbot](https://github.com/Aayushyaash/Rag-chatbot)
-Privacy-first RAG engine for multi-document PDF querying.
-- **Engineering Choice**: Hybrid semantic + BM25 keyword search unified via Reciprocal Rank Fusion (RRF) to mitigate precision loss in vector-only search for exact domain identifiers.
-- **Privacy & Execution**: Local chunk embedding storage; switchable local vs cloud inference pipeline with deduplication.
-- **Stack**: `FastAPI`, `ChromaDB`, `PyTorch`, `Gemini API`, `HuggingFace`
-
-### 🎭 [MITRA Theatre — Live Site](https://mitraproductions.com/)
-Cinematic theatre company website — designed, built, and deployed independently for a live theatre organization.
-- **Engineering**: Automated local validation pipeline — Husky pre-commit/pre-push hooks, Knip dead-code detection, Conventional Commits enforcement, and Vitest + Playwright browser testing.
-- **Frontend**: React 19 + TypeScript, Framer Motion, custom cinematic intro/loading sequence, modular component hierarchy, and dark-theatrical design system.
-- Source code is private.
-- **Stack**: `React 19`, `TypeScript`, `Vite`, `Framer Motion`, `Vitest`, `Playwright`
-
-### <img src="assets/emojis/Brain.png" width="20px" height="20px"/> [MindMate-AI](https://github.com/Aayushyaash/MindMate-AI)
-Collaborative AI mental health platform *(Team Project — Original repository maintained by team lead)*.
-- **My Contributions**: Real-time voice pipeline (Twilio WebRTC + ElevenLabs TTS), asynchronous WebSocket consumers, PHQ-9 assessment and scoring workflows, and JWT authentication.
-- **Stack**: `Django`, `Redis Channels`, `WebSockets`, `Twilio`, `ElevenLabs`
-
----
-
-## <img src="assets/emojis/Hammer and Wrench.png" width="24px" height="24px" alt="Tech Stack"/> Technical Skills
-
-<details open>
-<summary><strong>Languages</strong></summary>
-<br>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-
-</details>
+### In review
 
 <details>
-<summary><strong>Backend & Data</strong></summary>
-<br>
+<summary><b>3 open pull requests across 2 repositories</b></summary>
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+**<img src="https://github.com/rtk-ai.png?size=32" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**
+- [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
+- [#4335](https://github.com/rtk-ai/rtk/pull/4335) fix(init): migrate legacy Antigravity rules on install and uninstall (#4317)
 
-</details>
-
-<details>
-<summary><strong>AI / ML, Retrieval & Computer Vision</strong></summary>
-<br>
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=for-the-badge&logo=database&logoColor=white)
+**<img src="https://github.com/backnotprop.png?size=32" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**
+- [#1646](https://github.com/backnotprop/plannotator/pull/1646) fix(plan): smooth sticky lane badge expansion and hover sync
 
 </details>
 
-<details>
-<summary><strong>Frontend, Testing & Developer Tools</strong></summary>
-<br>
+### Contributed to
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+<p align="left">
+  <a href="https://github.com/QwenLM/qwen-code" title="An open-source AI coding agent that lives in your terminal."><img alt="QwenLM/qwen-code stars" src="https://img.shields.io/github/stars/QwenLM/qwen-code?style=flat-square&logo=github&label=QwenLM/qwen-code&color=1f6feb&labelColor=0d1117" /></a>
+  <a href="https://github.com/backnotprop/plannotator" title="Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click."><img alt="backnotprop/plannotator stars" src="https://img.shields.io/github/stars/backnotprop/plannotator?style=flat-square&logo=github&label=backnotprop/plannotator&color=1f6feb&labelColor=0d1117" /></a>
+  <a href="https://github.com/rtk-ai/rtk" title="CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"><img alt="rtk-ai/rtk stars" src="https://img.shields.io/github/stars/rtk-ai/rtk?style=flat-square&logo=github&label=rtk-ai/rtk&color=1f6feb&labelColor=0d1117" /></a>
+</p>
+<!-- CONTRIB:END -->
 
-</details>
+<p align="right">
+  <sub>Updated nightly via GitHub Actions with <a href="scripts/update_contributions.py">a Python script</a> · <a href="https://github.com/search?q=author%3AAayushyaash+is%3Apr+-user%3AAayushyaash&type=pullrequests">all pull requests →</a></sub>
+</p>
+
+## <img src="assets/emojis/Floppy Disk.png" width="22px" height="22px" valign="middle" alt="Projects"/> Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Aayushyaash/Bharat-ID-Validator">Bharat-ID-Validator</a></h3>
+      <p>FastAPI pipeline for Indian identity document classification and OCR field extraction. Implemented two-phase OCR with YOLO-based orientation correction to eliminate text extraction noise on skewed scans. Achieved 98%+ classification accuracy across 7 document formats (50+ field classes) and ~80% latency reduction over naive whole-image OCR passes.</p>
+      <sub><code>FastAPI</code> <code>PyTorch</code> <code>YOLO</code> <code>PaddleOCR</code> <code>OpenCV</code> <code>Pydantic</code> <code>pytest</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Aayushyaash/Rag-chatbot">Rag-chatbot</a></h3>
+      <p>Privacy-first local RAG engine for multi-document querying. Built hybrid semantic + BM25 keyword search unified via Reciprocal Rank Fusion (RRF) to eliminate vector-only precision loss on precise domain identifiers. Features local ChromaDB chunk storage and switchable local/cloud inference pipeline with deduplication.</p>
+      <sub><code>FastAPI</code> <code>ChromaDB</code> <code>PyTorch</code> <code>HuggingFace</code> <code>Gemini API</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://mitraproductions.com/">MITRA Theatre</a> <sub>client project</sub></h3>
+      <p>Live cinematic website built independently for a live theatre production organization. Engineered an automated local validation pipeline (Husky pre-commit/pre-push hooks, Knip dead-code detection, Conventional Commits) paired with Vitest and Playwright browser integration testing.</p>
+      <sub><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Framer Motion</code> <code>Vitest</code> <code>Playwright</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Aayushyaash/MindMate-AI">MindMate-AI</a> <sub>team project</sub></h3>
+      <p>Collaborative AI mental health platform. Engineered the real-time voice pipeline (Twilio WebRTC + ElevenLabs TTS), asynchronous WebSocket consumers for low-latency session messaging, automated PHQ-9 clinical assessment workflows, and JWT authentication.</p>
+      <sub><code>Django</code> <code>Redis Channels</code> <code>WebSockets</code> <code>Twilio</code> <code>ElevenLabs</code></sub>
+    </td>
+  </tr>
+</table>
+
+<p align="right"><sub><a href="https://github.com/Aayushyaash?tab=repositories&type=source">all repositories →</a></sub></p>
+
+## <img src="assets/emojis/Hammer and Wrench.png" width="22px" height="22px" valign="middle" alt="Skills"/> Technical skills
+
+### Languages
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+</p>
+
+### Backend & Data
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6600?style=flat-square&logo=databricks&logoColor=white" alt="ChromaDB" />
+</p>
+
+### AI & Computer Vision
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=target&logoColor=black" alt="YOLO" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" />
+</p>
+
+### Frontend & DevOps
+<p>
+  <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+## Contact
+
+Open to full-time **Python Backend Engineer**, **AI Engineer**, and **Software Engineer** roles (Remote or On-site).
+
+- **Email**: [aayushyaash@outlook.com](mailto:aayushyaash@outlook.com)
+- **LinkedIn**: [linkedin.com/in/aayush-yash](https://linkedin.com/in/aayush-yash)
+- **Portfolio**: [aayushyaash.github.io/portfolio](https://aayushyaash.github.io/portfolio/)
 
 ---
 
 <p align="center">
-  <img src="assets/emojis/High Voltage.png" width="16px" height="16px"/> <b>Fun fact:</b> I enjoy music <img src="assets/emojis/Musical Notes.png" width="16px" height="16px"/>, anime <img src="assets/emojis/Television.png" width="16px" height="16px"/>, and reading light novels <img src="assets/emojis/Books.png" width="16px" height="16px"/>
+  <img src="assets/emojis/High Voltage.png" width="16px" height="16px" valign="middle"/> <b>Fun fact:</b> I enjoy music <img src="assets/emojis/Musical Notes.png" width="16px" height="16px" valign="middle"/>, anime <img src="assets/emojis/Television.png" width="16px" height="16px" valign="middle"/>, and reading light novels <img src="assets/emojis/Books.png" width="16px" height="16px" valign="middle"/>
 </p>
 
 <p align="center">
