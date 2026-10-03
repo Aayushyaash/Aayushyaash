@@ -45,31 +45,34 @@ I build asynchronous backend services, document intelligence pipelines, and loca
   <img src="https://img.shields.io/badge/projects-3-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
+
 ### Merged upstream
 
-**<img src="https://github.com/backnotprop.png?size=32" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
+**<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
 - [#1669](https://github.com/backnotprop/plannotator/pull/1669) fix(ai): show friendly error when opencode CLI is unavailable
 - [#1658](https://github.com/backnotprop/plannotator/pull/1658) fix(ui): style Ask AI dropdown options for dark themes
 
-**<img src="https://github.com/QwenLM.png?size=32" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**<br/><sub>An open-source AI coding agent that lives in your terminal.</sub>
+**<img src="https://avatars.githubusercontent.com/u/141221163?s=64&v=4" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**<br/><sub>An open-source AI coding agent that lives in your terminal.</sub>
 - [#1890](https://github.com/QwenLM/qwen-code/pull/1890) fix(windows): resolve silent failures caused by CRLF line endings (#1868)
 
-**<img src="https://github.com/rtk-ai.png?size=32" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
+**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
 - [#3711](https://github.com/rtk-ai/rtk/pull/3711) feat(hook): add native Google Antigravity plugin lifecycle and hook support
+
 
 ### In review
 
 <details>
 <summary><b>3 open pull requests across 2 repositories</b></summary>
 
-**<img src="https://github.com/rtk-ai.png?size=32" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**
+**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
 - [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
 - [#4335](https://github.com/rtk-ai/rtk/pull/4335) fix(init): migrate legacy Antigravity rules on install and uninstall (#4317)
 
-**<img src="https://github.com/backnotprop.png?size=32" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**
+**<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
 - [#1646](https://github.com/backnotprop/plannotator/pull/1646) fix(plan): smooth sticky lane badge expansion and hover sync
 
 </details>
+
 
 ### Contributed to
 
@@ -81,7 +84,7 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 <!-- CONTRIB:END -->
 
 <p align="right">
-  <sub>Updated nightly via GitHub Actions with <a href="scripts/update_contributions.py">a Python script</a> · <a href="https://github.com/search?q=author%3AAayushyaash+is%3Apr+-user%3AAayushyaash&type=pullrequests">all pull requests →</a></sub>
+  <sub>Updated nightly via GitHub Actions with <a href="https://github.com/Aayushyaash/pr-showcase">pr-showcase</a> · <a href="https://github.com/search?q=author%3AAayushyaash+is%3Apr+-user%3AAayushyaash&type=pullrequests">all pull requests →</a></sub>
 </p>
 
 ## <img src="assets/emojis/Floppy Disk.png" width="22px" height="22px" valign="middle" alt="Projects"/> Featured projects
@@ -166,7 +169,7 @@ Open to full-time **Python Backend Engineer**, **AI Engineer**, and **Software E
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aayushyaash&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=aayushyaash&color=0e75b6&style=for-the-badge" alt="Profile Views" />
 </p>
 
 <p align="center">
