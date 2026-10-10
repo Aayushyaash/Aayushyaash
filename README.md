@@ -39,10 +39,10 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 
 <!-- CONTRIB:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/pull_requests-7-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
-  <img src="https://img.shields.io/badge/merged-4-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-3-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
-  <img src="https://img.shields.io/badge/projects-3-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
+  <img src="https://img.shields.io/badge/pull_requests-10-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
+  <img src="https://img.shields.io/badge/merged-5-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
+  <img src="https://img.shields.io/badge/in_review-5-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/projects-4-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
 
@@ -51,6 +51,9 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 **<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
 - [#1669](https://github.com/backnotprop/plannotator/pull/1669) fix(ai): show friendly error when opencode CLI is unavailable
 - [#1658](https://github.com/backnotprop/plannotator/pull/1658) fix(ui): style Ask AI dropdown options for dark themes
+
+**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="facebook" /> [`facebook/pyrefly`](https://github.com/facebook/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
+- [#5098](https://github.com/facebook/pyrefly/pull/5098) fix: recognize @override on property getter with setter
 
 **<img src="https://avatars.githubusercontent.com/u/141221163?s=64&v=4" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**<br/><sub>An open-source AI coding agent that lives in your terminal.</sub>
 - [#1890](https://github.com/QwenLM/qwen-code/pull/1890) fix(windows): resolve silent failures caused by CRLF line endings (#1868)
@@ -62,7 +65,11 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 ### In review
 
 <details>
-<summary><b>3 open pull requests across 2 repositories</b></summary>
+<summary><b>5 open pull requests across 3 repositories</b></summary>
+
+**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="facebook" /> [`facebook/pyrefly`](https://github.com/facebook/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
+- [#5181](https://github.com/facebook/pyrefly/pull/5181) fix: record attribute definition index for assignment and deletion targets
+- [#5180](https://github.com/facebook/pyrefly/pull/5180) fix: skip missing-super-call checks in TYPE_CHECKING blocks
 
 **<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
 - [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
@@ -79,6 +86,7 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 <p align="left">
   <a href="https://github.com/QwenLM/qwen-code" title="An open-source AI coding agent that lives in your terminal."><img alt="QwenLM/qwen-code stars" src="https://img.shields.io/github/stars/QwenLM/qwen-code?style=flat-square&logo=github&label=QwenLM/qwen-code&color=1f6feb&labelColor=0d1117" /></a>
   <a href="https://github.com/backnotprop/plannotator" title="Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click."><img alt="backnotprop/plannotator stars" src="https://img.shields.io/github/stars/backnotprop/plannotator?style=flat-square&logo=github&label=backnotprop/plannotator&color=1f6feb&labelColor=0d1117" /></a>
+  <a href="https://github.com/facebook/pyrefly" title="A fast type checker and language server for Python"><img alt="facebook/pyrefly stars" src="https://img.shields.io/github/stars/facebook/pyrefly?style=flat-square&logo=github&label=facebook/pyrefly&color=1f6feb&labelColor=0d1117" /></a>
   <a href="https://github.com/rtk-ai/rtk" title="CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"><img alt="rtk-ai/rtk stars" src="https://img.shields.io/github/stars/rtk-ai/rtk?style=flat-square&logo=github&label=rtk-ai/rtk&color=1f6feb&labelColor=0d1117" /></a>
 </p>
 <!-- CONTRIB:END -->
