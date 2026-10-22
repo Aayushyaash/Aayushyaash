@@ -39,9 +39,9 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 
 <!-- CONTRIB:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/pull_requests-11-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
+  <img src="https://img.shields.io/badge/pull_requests-13-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
   <img src="https://img.shields.io/badge/merged-7-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-4-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/in_review-6-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
   <img src="https://img.shields.io/badge/projects-4-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
@@ -72,7 +72,12 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 ### In review
 
 <details>
-<summary><b>4 open pull requests across 3 repositories</b></summary>
+<summary><b>6 open pull requests across 3 repositories</b></summary>
+
+**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="facebook" /> [`facebook/pyrefly`](https://github.com/facebook/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
+- [#5316](https://github.com/facebook/pyrefly/pull/5316) fix: disallow overriding staticmethod/classmethod with instance method
+- [#5310](https://github.com/facebook/pyrefly/pull/5310) fix: flag overload signatures not immediately followed by implementation
+- [#5180](https://github.com/facebook/pyrefly/pull/5180) fix: skip missing-super-call checks in TYPE_CHECKING blocks
 
 **<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
 - [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
@@ -80,9 +85,6 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 
 **<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
 - [#1646](https://github.com/backnotprop/plannotator/pull/1646) fix(plan): smooth sticky lane badge expansion and hover sync
-
-**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="facebook" /> [`facebook/pyrefly`](https://github.com/facebook/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
-- [#5180](https://github.com/facebook/pyrefly/pull/5180) fix: skip missing-super-call checks in TYPE_CHECKING blocks
 
 </details>
 
