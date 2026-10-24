@@ -40,8 +40,8 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 <!-- CONTRIB:START -->
 <p align="center">
   <img src="https://img.shields.io/badge/pull_requests-14-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
-  <img src="https://img.shields.io/badge/merged-9-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-5-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/merged-11-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
+  <img src="https://img.shields.io/badge/in_review-3-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
   <img src="https://img.shields.io/badge/projects-4-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
@@ -56,7 +56,12 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 - [#5098](https://github.com/facebook/pyrefly/pull/5098) fix: recognize @override on property getter with setter
 
 <details>
-<summary><b>View 4 more merged pull requests</b></summary>
+<summary><b>View 6 more merged pull requests</b></summary>
+
+**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**
+- [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
+- [#4335](https://github.com/rtk-ai/rtk/pull/4335) fix(init): migrate legacy Antigravity rules on install and uninstall (#4317)
+- [#3711](https://github.com/rtk-ai/rtk/pull/3711) feat(hook): add native Google Antigravity plugin lifecycle and hook support
 
 **<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**
 - [#1669](https://github.com/backnotprop/plannotator/pull/1669) fix(ai): show friendly error when opencode CLI is unavailable
@@ -65,24 +70,17 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 **<img src="https://avatars.githubusercontent.com/u/141221163?s=64&v=4" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**
 - [#1890](https://github.com/QwenLM/qwen-code/pull/1890) fix(windows): resolve silent failures caused by CRLF line endings (#1868)
 
-**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**
-- [#3711](https://github.com/rtk-ai/rtk/pull/3711) feat(hook): add native Google Antigravity plugin lifecycle and hook support
-
 </details>
 
 
 ### In review
 
 <details>
-<summary><b>5 open pull requests across 3 repositories</b></summary>
+<summary><b>3 open pull requests across 2 repositories</b></summary>
 
 **<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="facebook" /> [`facebook/pyrefly`](https://github.com/facebook/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
 - [#5338](https://github.com/facebook/pyrefly/pull/5338) fix: do not filter wildcard include patterns against ignore files
 - [#5180](https://github.com/facebook/pyrefly/pull/5180) fix: skip missing-super-call checks in TYPE_CHECKING blocks
-
-**<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**<br/><sub>CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies</sub>
-- [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
-- [#4335](https://github.com/rtk-ai/rtk/pull/4335) fix(init): migrate legacy Antigravity rules on install and uninstall (#4317)
 
 **<img src="https://avatars.githubusercontent.com/u/7244317?s=64&u=ca99a5717dd0ce83ad6e9f39a00489f84e501fbe&v=4" width="16" height="16" valign="middle" alt="backnotprop" /> [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.")**<br/><sub>Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.</sub>
 - [#1646](https://github.com/backnotprop/plannotator/pull/1646) fix(plan): smooth sticky lane badge expansion and hover sync
