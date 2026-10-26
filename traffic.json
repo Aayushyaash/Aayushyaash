@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T07:46:43.951563+00:00",
+  "updated_at": "2026-10-26T08:03:47.851280+00:00",
   "total_views": 1,
   "total_uniques": 1,
   "views": [
@@ -180,6 +180,11 @@
     },
     {
       "timestamp": "2026-10-24T00:00:00Z",
+      "count": 0,
+      "uniques": 0
+    },
+    {
+      "timestamp": "2026-10-25T00:00:00Z",
       "count": 0,
       "uniques": 0
     }
