@@ -92,7 +92,7 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 <p align="left">
   <a href="https://github.com/QwenLM/qwen-code" title="An open-source AI coding agent that lives in your terminal."><img alt="QwenLM/qwen-code stars" src="https://img.shields.io/static/v1?label=QwenLM%2Fqwen-code&message=29k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
   <a href="https://github.com/backnotprop/plannotator" title="Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click."><img alt="backnotprop/plannotator stars" src="https://img.shields.io/static/v1?label=backnotprop%2Fplannotator&message=9.7k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
-  <a href="https://github.com/facebook/pyrefly" title="A fast type checker and language server for Python"><img alt="facebook/pyrefly stars" src="https://img.shields.io/static/v1?label=facebook%2Fpyrefly&message=7.1k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
+  <a href="https://github.com/facebook/pyrefly" title="A fast type checker and language server for Python"><img alt="facebook/pyrefly stars" src="https://img.shields.io/static/v1?label=facebook%2Fpyrefly&message=7.2k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
   <a href="https://github.com/rtk-ai/rtk" title="CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"><img alt="rtk-ai/rtk stars" src="https://img.shields.io/static/v1?label=rtk-ai%2Frtk&message=85k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
 </p>
 <!-- CONTRIB:END -->
