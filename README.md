@@ -40,8 +40,8 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 <!-- CONTRIB:START -->
 <p align="center">
   <img src="https://img.shields.io/badge/pull_requests-14-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
-  <img src="https://img.shields.io/badge/merged-13-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-1-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/merged-14-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
+  <img src="https://img.shields.io/badge/in_review-0-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
   <img src="https://img.shields.io/badge/projects-4-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
@@ -49,14 +49,19 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 ### Merged upstream
 
 **<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="meta" /> [`meta/pyrefly`](https://github.com/meta/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
+- [#5474](https://github.com/meta/pyrefly/pull/5474) fix: skip missing-super-call for abstract or protocol constructor overrides
 - [#5469](https://github.com/meta/pyrefly/pull/5469) fix: skip missing-super-call when parent method lacks runtime implementation
 - [#5316](https://github.com/meta/pyrefly/pull/5316) fix: disallow overriding staticmethod/classmethod with instance method
 - [#5310](https://github.com/meta/pyrefly/pull/5310) fix: flag overload signatures not immediately followed by implementation
 - [#5215](https://github.com/meta/pyrefly/pull/5215) fix: suppress missing-source errors in stubs and TYPE_CHECKING blocks
-- [#5181](https://github.com/meta/pyrefly/pull/5181) fix: record attribute definition index for assignment and deletion targets
 
 <details>
-<summary><b>View 8 more merged pull requests</b></summary>
+<summary><b>View 9 more merged pull requests</b></summary>
+
+**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="meta" /> [`meta/pyrefly`](https://github.com/meta/pyrefly "A fast type checker and language server for Python")**
+- [#5181](https://github.com/meta/pyrefly/pull/5181) fix: record attribute definition index for assignment and deletion targets
+- [#5180](https://github.com/meta/pyrefly/pull/5180) fix: skip missing-super-call checks in TYPE_CHECKING blocks
+- [#5098](https://github.com/meta/pyrefly/pull/5098) fix: recognize @override on property getter with setter
 
 **<img src="https://avatars.githubusercontent.com/u/258253854?s=64&v=4" width="16" height="16" valign="middle" alt="rtk-ai" /> [`rtk-ai/rtk`](https://github.com/rtk-ai/rtk "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies")**
 - [#4343](https://github.com/rtk-ai/rtk/pull/4343) fix(hooks): recognize configured agent hooks in warning check (#913)
@@ -67,23 +72,8 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 - [#1669](https://github.com/backnotprop/plannotator/pull/1669) fix(ai): show friendly error when opencode CLI is unavailable
 - [#1658](https://github.com/backnotprop/plannotator/pull/1658) fix(ui): style Ask AI dropdown options for dark themes
 
-**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="meta" /> [`meta/pyrefly`](https://github.com/meta/pyrefly "A fast type checker and language server for Python")**
-- [#5180](https://github.com/meta/pyrefly/pull/5180) fix: skip missing-super-call checks in TYPE_CHECKING blocks
-- [#5098](https://github.com/meta/pyrefly/pull/5098) fix: recognize @override on property getter with setter
-
 **<img src="https://avatars.githubusercontent.com/u/141221163?s=64&v=4" width="16" height="16" valign="middle" alt="QwenLM" /> [`QwenLM/qwen-code`](https://github.com/QwenLM/qwen-code "An open-source AI coding agent that lives in your terminal.")**
 - [#1890](https://github.com/QwenLM/qwen-code/pull/1890) fix(windows): resolve silent failures caused by CRLF line endings (#1868)
-
-</details>
-
-
-### In review
-
-<details>
-<summary><b>1 open pull requests across 1 repositories</b></summary>
-
-**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="meta" /> [`meta/pyrefly`](https://github.com/meta/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
-- [#5474](https://github.com/meta/pyrefly/pull/5474) fix: skip missing-super-call for abstract or protocol method overrides
 
 </details>
 
