@@ -39,9 +39,9 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 
 <!-- CONTRIB:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/pull_requests-15-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
+  <img src="https://img.shields.io/badge/pull_requests-14-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
   <img src="https://img.shields.io/badge/merged-14-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-1-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/in_review-0-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
   <img src="https://img.shields.io/badge/projects-4-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
@@ -78,22 +78,11 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 </details>
 
 
-### In review
-
-<details>
-<summary><b>1 open pull requests across 1 repositories</b></summary>
-
-**<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="meta" /> [`meta/pyrefly`](https://github.com/meta/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
-- [#5500](https://github.com/meta/pyrefly/pull/5500) fix: do not emit variance-mismatch for constrained typevars in protocols
-
-</details>
-
-
 ### Contributed to
 
 <p align="left">
   <a href="https://github.com/QwenLM/qwen-code" title="An open-source AI coding agent that lives in your terminal."><img alt="QwenLM/qwen-code stars" src="https://img.shields.io/static/v1?label=QwenLM%2Fqwen-code&message=29k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
-  <a href="https://github.com/backnotprop/plannotator" title="The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."><img alt="backnotprop/plannotator stars" src="https://img.shields.io/static/v1?label=backnotprop%2Fplannotator&message=9.8k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
+  <a href="https://github.com/backnotprop/plannotator" title="The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."><img alt="backnotprop/plannotator stars" src="https://img.shields.io/static/v1?label=backnotprop%2Fplannotator&message=9.9k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
   <a href="https://github.com/meta/pyrefly" title="A fast type checker and language server for Python"><img alt="meta/pyrefly stars" src="https://img.shields.io/static/v1?label=meta%2Fpyrefly&message=7.2k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
   <a href="https://github.com/rtk-ai/rtk" title="CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"><img alt="rtk-ai/rtk stars" src="https://img.shields.io/static/v1?label=rtk-ai%2Frtk&message=86k&color=1f6feb&labelColor=0d1117&style=flat-square&logo=github" /></a>
 </p>
