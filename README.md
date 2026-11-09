@@ -39,9 +39,9 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 
 <!-- CONTRIB:START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/pull_requests-15-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
+  <img src="https://img.shields.io/badge/pull_requests-16-1f6feb?style=flat-square&labelColor=161b22&logo=git&logoColor=white" alt="PRs" />
   <img src="https://img.shields.io/badge/merged-14-8957e5?style=flat-square&labelColor=161b22&logo=github&logoColor=white" alt="Merged" />
-  <img src="https://img.shields.io/badge/in_review-1-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
+  <img src="https://img.shields.io/badge/in_review-2-2da44e?style=flat-square&labelColor=161b22&logo=githubactions&logoColor=white" alt="In Review" />
   <img src="https://img.shields.io/badge/projects-4-f78166?style=flat-square&labelColor=161b22&logo=opensourceinitiative&logoColor=white" alt="Projects" />
 </p>
 
@@ -81,9 +81,10 @@ I build asynchronous backend services, document intelligence pipelines, and loca
 ### In review
 
 <details>
-<summary><b>1 open pull requests across 1 repositories</b></summary>
+<summary><b>2 open pull requests across 1 repositories</b></summary>
 
 **<img src="https://avatars.githubusercontent.com/u/69631?s=64&v=4" width="16" height="16" valign="middle" alt="meta" /> [`meta/pyrefly`](https://github.com/meta/pyrefly "A fast type checker and language server for Python")**<br/><sub>A fast type checker and language server for Python</sub>
+- [#5583](https://github.com/meta/pyrefly/pull/5583) fix: report malformed ignore comments as invalid-ignore-comment
 - [#5572](https://github.com/meta/pyrefly/pull/5572) fix: show setter type and accessors on property assignment hover
 
 </details>
